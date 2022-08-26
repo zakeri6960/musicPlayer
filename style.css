@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    padding-top: 100px;
+    background-color: black;
+    padding: 20px;
+}
+
+h1 {
+    color: silver;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    animation: glow .5s ease-in-out infinite alternate;
+    animation-play-state: paused;
+}
+
+input {
+    margin-top: 40px;
+    width: 500px;
+    /* appearance: none; */
+    cursor: pointer;
+}
+
+div {
+    padding: 20px;
+}
+
+i {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0px 0px 38px -10px yellow;
+    }
+    to {
+        box-shadow: 0px 0px 38px 10px red;
+    }
+}
