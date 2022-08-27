@@ -1,8 +1,8 @@
-let musics = [{
+let musics = [
     title: 'Mardomak',
     cover: 'image/Reza-Pishro-Mardomak-Ft-Babak-415x415-1.jpg',
     audio: new Audio("music/Reza Pishro - Mardomak (Ft Babak).mp3")
-}]
+]
 
 let musicTitle = document.querySelector("#music-name")
 let musicTime = document.querySelector("#music-time")
